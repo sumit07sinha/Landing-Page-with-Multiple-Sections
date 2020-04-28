@@ -1,4 +1,4 @@
-# blogWebsiteUsingGridView
+# responsive web page
 
-<h3> Gridview is used to make pages responsive.</h3>
-  <h3> Flexbox is also used alongwith grid.</h3>
+<h3> User can switch between sections .</h3>
+  <h3> selected sections will be highlighted.</h3>
