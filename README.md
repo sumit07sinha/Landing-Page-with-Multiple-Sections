@@ -1,4 +1,6 @@
-# responsive web page
-
-<h3> User can switch between sections .</h3>
-  <h3> selected sections will be highlighted.</h3>
+# Responsive Landing Page with Multiple Sections
+```bash
+A web page with multiple sections are there.
+User can switch to different sections by clicking on navbar or by scrolling the page.
+Active sections will be automatically highlighted. 
+```
