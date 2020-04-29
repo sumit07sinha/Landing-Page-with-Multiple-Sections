@@ -38,3 +38,18 @@ window.addEventListener("scroll", (event) => {
     }
   });
 });
+// to add your-active-class in each of the sections
+let highlightedSection = document.querySelectorAll("section");
+window.addEventListener("scroll", (event) => {
+  let sectionFromTop = window.scrollY;
+  highlightedSection.forEach((sec) => {
+    if (
+      sec.offsetTop - 20 <= sectionFromTop &&
+      sec.offsetTop + sec.offsetHeight > sectionFromTop
+    ) {
+      sec.classList.add("your-active-class");
+    } else {
+      sec.classList.remove("your-active-class");
+    }
+  });
+});
